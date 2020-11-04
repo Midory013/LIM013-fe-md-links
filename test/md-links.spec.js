@@ -1,10 +1,7 @@
-const mdLinks = require('../');
+const myfuncion = require('../src/index.js');//aqui colocamos el archivo el nombre 
 
-
-describe('mdLinks', () => {
-
-  it('should...', () => {
-    console.log('FIX ME!');
+describe('fileExist', () => {
+  it('deeria retornarme tru si existe', () => {
+    expect(typeof myfuncion.fileExist).toBe('function');
   });
-
 });
